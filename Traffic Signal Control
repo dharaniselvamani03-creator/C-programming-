@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+char x;
+scanf("%c",&x);
+switch (x)
+{
+case 'R':
+{
+printf("STOP");
+}
+break;
+case 'Y':
+{
+printf("READY");
+}
+case 'G':
+{
+printf("GO");
+}
+break;
+}
+}
