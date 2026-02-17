@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+  int a;
+scanf("%d",&a);
+if(a<=100)
+{
+printf("Low");
+}
+else if (a>=101 && a<=300)
+{
+printf("Medium");
+}
+if(a>300)
+{
+printf("High");
+}
+}
