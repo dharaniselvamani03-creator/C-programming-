@@ -1,0 +1,14 @@
+#imclude<stdio.h>
+int main()
+{
+int salary,credit,age;
+scanf("%d %d %d",&a,&b,&c);
+if(salary>=25000 && credit>=700 &&age>=21 && age<=60)
+{
+printf("Approved");
+}
+else
+{
+printf("Rejected");
+}
+}
