@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+  int mark;
+scanf("%d",&mark);
+if (mark>=90)
+{
+printf("O");
+}
+else if (mark>=80 & mark<=90)
+{
+printf("A");
+}
+else if (mark>=70 & mark<=79)
+{
+printf("B");
+}
+else if (mark>=60 & mark<=69)
+{
+printf("C");
+}
+else
+{
+printf("Fail");
+}
+}
